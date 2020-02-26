@@ -1,7 +1,6 @@
 #logo {
-  display: flex;
-  color: blue;
-  /*border: solid 2px black;*/
+  height: 150px;
+  border: solid 2px black;
 }
 
 .navbar {
@@ -9,13 +8,28 @@
   justify-content: space-between;
   align-items: center;
   color: blue;
-  /*border: solid 4px blue;*/
+  border: solid 4px blue;
   width: 800px;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 .navBarContainer {
   width: 100%;
-  background-color: grey;
-  /*border: 10px solid green;*/
+  height: 100%;
+  border: 10px solid green;
 }
+
+#logo img {
+  width: 100%;
+  height: 150px;
+  border: 2px solid yellow;
+  background-color: rgb(212, 220, 78);
+}
+
+/*
+Pink: Outline of App
+Green: Outline of NavBar Container
+Black: Outline of Logo Container
+Blue: Outline of Navbar
+Yellow: Outline of Image
+*/
