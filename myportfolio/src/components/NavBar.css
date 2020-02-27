@@ -1,16 +1,9 @@
-#logo {
-  height: 150px;
-  border: solid 2px black;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: blue;
   border: solid 4px blue;
-  width: 800px;
-  margin-left: 20%;
 }
 
 .navBarContainer {
@@ -21,7 +14,7 @@
 
 #logo img {
   width: 100%;
-  height: 150px;
+  height: 300px;
   border: 2px solid yellow;
   background-color: rgb(212, 220, 78);
 }
