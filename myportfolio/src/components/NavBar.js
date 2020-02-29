@@ -11,9 +11,15 @@ function NavBar() {
       </div>
       <div className="navbar">
         <Router>
-          <Link to="#">Home</Link>
-          <Link to="#">Projects</Link>
-          <Link to="#">About Me</Link>
+          <Link className="nav-links" to="#">
+            Home
+          </Link>
+          <Link className="nav-links" to="#">
+            Projects
+          </Link>
+          <Link className="nav-links" to="#">
+            About Me
+          </Link>
         </Router>
       </div>
     </div>

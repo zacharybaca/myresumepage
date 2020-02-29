@@ -1,7 +1,7 @@
 .App {
-  display: flex;
-  max-width: 100%;
-  height: 990px;
+  width: 100%;
+  height: 100%;
   border: 15px solid pink;
   background-image: url('./assets/paintbrushrollers.jpg');
+  background-size: 800px;
 }
