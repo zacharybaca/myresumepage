@@ -21,3 +21,8 @@
   background-color: tan;
   font-weight: bold;
 }
+
+.intro-container button {
+  display: flex;
+  justify-content: center;
+}
